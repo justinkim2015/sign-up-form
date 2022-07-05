@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+@font-face {
+  font-family: 'norse';
+  src: url('fonts/webfontkit-20220705-131140/norse-bold-webfont.woff'),
+       url('fonts/webfontkit-20220705-131140/norse-bold-webfont.woff2');
+       font-weight: normal;
+       font-style: normal;
+}
+.left {
+  background-image: url("pictures/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 38vw;
+}
+
+.right {
+  height: 100vh;
+  width: 62vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.top, .mid, .bot {
+
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 247, 247);
+  height: 34vh;
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 30vh;
+}
+
+.bot {
+  background-color: rgb(247, 247, 247);
+  height: 36vh;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  height: 14vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.odin {
+  font-size: x-large;
+  color: white;
+  font: 7em "norse";
+}
+
+.logo {
+  width: auto;
+  height: 13vh;
+}
+
+.online, .want {
+  margin-left: 3vw;
+  /* change this width later to equal the width of the inputs in middle section */
+  width: 40vw; 
+  font-size: larger;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.online {
+  margin-top: 14vh;
+  margin-bottom: 30px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.forms {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputs {
+  display: flex;
+  margin: 5px;
+}
+
+.leftinput, .rightinput {
+  width: 25vw;
+  border: 1px red solid;
+}
+
+li {
+  margin: 5px;
+  margin-left: 3vw;
+}
+
+.formhead {
+  margin-left: 3vw;
+  margin-bottom: 2vh;
+}
